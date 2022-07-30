@@ -5,12 +5,12 @@ load_dotenv()
 que = {}
 admins = {}
 
-API_ID = int(getenv("API_ID", "4110592"))
-API_HASH = getenv("API_HASH", "aa7c849566922168031b95212860ede0")
-BOT_TOKEN = getenv("BOT_TOKEN","1917637742:AAF61TOx72pQEap0aHp56t9yQL5VUl-C7R0")
-BOT_NAME = getenv("BOT_NAME","eSportMusicX🚩")
+API_ID = int(getenv("API_ID", "16011325"))
+API_HASH = getenv("API_HASH", "8c423e5f86f74ed9819ea96bb6d7d02a")
+BOT_TOKEN = getenv("BOT_TOKEN","5497787737:AAEufj5Mi04TgplsMS0BogvI0zz9IqNx-mg")
+BOT_NAME = getenv("BOT_NAME","𝗛𝗲𝘅𝗼𝗿 𝗕𝗮𝗯𝗮 𝗥𝗲𝗮𝗱𝘆 𝗙𝗼𝗿 𝗙𝗶𝗿𝗲")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "120"))
-SESSION_NAME = getenv("SESSION_NAME", "BQCdZUPVqWdHudEeVSwMaYj2FoNB7x5LMGmFBTSe603Zo8shg0e_pxyqAJ59lxCvBblBOg-yn3nxNkzleIuv3q4poErGNQLNy2QL11BBjiZv2FK47xWn522ECLgWUg4Tnxhs_gkOZQjWkLkP1NWibeaxy0y5ufTaDS905u7ksMedBw_XBjeZHFkL4kLdRbnerhijU2UP1aJ0QfEN9nrSSDJj6NxxrFpg53nnlT4H9MXyZkGvMa9_CERrgCVlyz4bKcEOqw9RrQk6PhwnawfbkP3ESgFLT3FtBCvmZGFDTY2-1wFQzla9mK00KluI2n_266KZJqFnHLXIbR329-Yyy2ddbAMQnwA")
+SESSION_NAME = getenv("SESSION_NAME", "BQCrTWO-GrrMMW_PjPTP54N5KLGrD_vpKHQ0XwbpUT-ba_-U2GvVRt8Cf9ep0iifFvLk0iuUULqbcoZJMaFZ7iCafGKOy2tJPp6HZK7LdZ8NEN7zP36OojsHlkAy53FXVevs_71-TQEbTgV-Q8ijR2KQEQ5jnymyO9rwd5JszmpNDITe8yOcOOhu-lzr0Z9wTgRVUL-q-x1VYncB-7YWKCblD3GRjzmcbCtQ-R7RuYslFdA9vgFW2NP4excbpBcTGbsgAH7YeOFE-lW49XXJG98QV_o4v01roDznNDIHFZsICWIV53Yv98bQ7OYnwV8Wn1KVOJJ5-bAEGWeOL6MYYcI5AAAAASx7CR8A")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
 PMPERMIT = getenv("PMPERMIT", "ENABLE")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1001755378580").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5080607590").split()))
