@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰ 𝐒𝐦𝐨𝐊𝐞𝐫 🚬 || 𝐌𝐮𝐒𝐢𝐂'𝐗 🎸 ❱...**")
+    lel = await message.reply("🔎 **🍫**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -279,7 +279,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "✌𝐖𝐡𝐚𝐭'𝐒 𝐓𝐡𝐞 ❤️ 𝐒𝐨𝐧𝐠 🎸 𝐘𝐨𝐮 🎧 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️**"
             )
-        await lel.edit("𝐌𝐮𝐒𝐢𝐂 🎸 𝐑𝐞𝐚𝐃𝐲 ❤️ 𝐅𝐨𝐫 𝐅𝐮𝐂'𝐊 👅 𝐕𝐨𝐈𝐜𝐄 𝐂𝐡𝐚𝐓 💫")
+        await lel.edit("😡")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
